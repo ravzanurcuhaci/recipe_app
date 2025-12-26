@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "name": "Menemen",
+        "imageUrl": "https://cdn.yemek.com/mnresize/1250/833/uploads/2021/03/menemen-yemekcom.jpg",
+        "ingredients": [
+            "yumurta",
+            "domates",
+            "biber",
+            "tuz",
+            "zeytinyağı"
+        ],
+        "steps": [
+            "Biberleri doğrayın ve tavada zeytinyağı ile soteleyin.",
+            "Domatesleri ekleyin ve pişirin.",
+            "Yumurtaları kırın ve karıştırarak pişirin.",
+            "Tuz ekleyin ve servis edin."
+        ],
+        "category": "Kahvaltı",
+        "cookingTime": "15 dk",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 2,
+        "name": "Pizza",
+        "imageUrl": "https://cdn.yemek.com/mnresize/1250/833/uploads/2014/11/ev-usulu-pizza-yemekcom.jpg",
+        "ingredients": [
+            "hamur",
+            "peynir",
+            "domates",
+            "sosis",
+            "zeytin"
+        ],
+        "steps": [
+            "Hamuru açın ve fırın tepsisine yerleştirin.",
+            "Üzerine sos ve malzemeleri ekleyin.",
+            "Peyniri serpiştirin ve 180°C fırında 20 dakika pişirin."
+        ],
+        "category": "Akşam Yemeği",
+        "cookingTime": "40 dk",
+        "difficulty": "Orta"
+    },
+    {
+        "id": 3,
+        "name": "Çikolatalı Kek",
+        "imageUrl": "https://cdn.yemek.com/mnresize/1250/833/uploads/2014/09/cikolatali-kek-yemekcom.jpg",
+        "ingredients": [
+            "un",
+            "şeker",
+            "yumurta",
+            "süt",
+            "kakao",
+            "kabartma tozu"
+        ],
+        "steps": [
+            "Fırını 180°C'ye ısıtın.",
+            "Tüm malzemeleri bir kapta karıştırın.",
+            "Karışımı kek kalıbına dökün.",
+            "30 dakika pişirin ve soğuduktan sonra servis edin."
+        ],
+        "category": "Tatlı",
+        "cookingTime": "45 dk",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 4,
+        "name": "Sebzeli Çorba",
+        "imageUrl": "https://cdn.yemek.com/mnresize/1250/833/uploads/2014/06/sebze-corbasi-yemekcom.jpg",
+        "ingredients": [
+            "havuç",
+            "patates",
+            "kabak",
+            "soğan",
+            "tuz",
+            "su"
+        ],
+        "steps": [
+            "Tüm sebzeleri doğrayın.",
+            "Tencereye su ekleyip sebzeleri haşlayın.",
+            "Tuz ekleyin ve blenderdan geçirin.",
+            "Sıcak servis edin."
+        ],
+        "category": "Çorba",
+        "cookingTime": "25 dk",
+        "difficulty": "Kolay"
+    },
+    {
+        "id": 5,
+        "name": "Tavuk Salatası",
+        "imageUrl": "https://cdn.yemek.com/mnresize/1250/833/uploads/2014/12/tavuklu-salata-yemekcom.jpg",
+        "ingredients": [
+            "tavuk göğsü",
+            "marul",
+            "domates",
+            "zeytinyağı",
+            "limon"
+        ],
+        "steps": [
+            "Tavuk göğsünü haşlayın ve didikleyin.",
+            "Sebzeleri doğrayın ve karıştırın.",
+            "Tavukları ekleyin ve zeytinyağı + limon ile tatlandırın."
+        ],
+        "category": "Salata",
+        "cookingTime": "20 dk",
+        "difficulty": "Kolay"
+    }
+]
