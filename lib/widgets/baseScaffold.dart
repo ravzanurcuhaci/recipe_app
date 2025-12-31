@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:recipe_app/utils/appColors.dart';
 import 'package:recipe_app/utils/appStyles.dart';
+import 'package:recipe_app/view/a%C4%B1Page.dart';
 import 'package:recipe_app/view/favoriesPage.dart';
 import 'package:recipe_app/view/homePage.dart';
 import 'package:recipe_app/view/profilePage.dart';
+import 'package:recipe_app/viewmodel/aiViewmodel.dart';
 
 class BaseScaffold extends StatelessWidget {
   final Widget body;
@@ -60,7 +63,10 @@ class BaseScaffold extends StatelessWidget {
     ScaffoldMessenger.of(
       context,
     ).showSnackBar(const SnackBar(content: Text("AI Modülü Açılıyor... 🤖")));
-    // İleride buraya: Navigator.push(context, MaterialPageRoute(builder: (_) => AIView()));
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => const AiPage()),
+    );
   }
 
   @override
