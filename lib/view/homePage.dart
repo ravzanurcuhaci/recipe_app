@@ -104,7 +104,6 @@ class _HomeViewState extends State<HomeView> {
               itemBuilder: (context, index) {
                 final currentRecipe = viewModel.recipes[index];
 
-                // DEĞİŞİKLİK BURADA BAŞLIYOR 👇
                 return GestureDetector(
                   onTap: () {
                     Navigator.push(
